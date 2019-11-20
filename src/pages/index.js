@@ -2,7 +2,7 @@ import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
-import pic01 from '../assets/images/pic01.jpg'
+import pic01 from '../assets/images/stock_woman.png'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -26,7 +26,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
+        <Helmet title="AlarmSync - POC" />
 
         <Header />
 
@@ -37,18 +37,17 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
 
         <div id="main">
-          <section id="intro" className="main">
+          <section id="overview" className="main">
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>What makes us different</h2>
                 </header>
                 <p>
-                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
-                  consequat magna adipiscing magna etiam amet veroeros. Lorem
-                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
-                  ipsum dolor sit amet aliquam.
+                You built your business around securing your community. We have built ours around simplifying how you do it.
                 </p>
+                <p>Our flexible and quick wireless installation solution opens the door for you to reach renters and other short term residents that 
+                  might not have considered security installation but want safety and home automation.</p>
                 <ul className="actions">
                   <li>
                     <Link to="/generic" className="button">
@@ -63,33 +62,30 @@ class Index extends React.Component {
             </div>
           </section>
 
-          <section id="first" className="main special">
+          <section id="integratedSmartSolutionSection" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>Integrated Smart Home & Security Solution</h2>
             </header>
             <ul className="features">
               <li>
                 <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
+                <h3>Comfort and Control</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                Power-up connected smart devices that make sense.
                 </p>
               </li>
               <li>
                 <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
+                <h3>Smart Like it Should Be</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                Provide your customers with an intelligent, mobile-first experience on a complete end-to-end solution they can trust.
                 </p>
               </li>
               <li>
                 <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
+                <h3>Expand Your Market</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                New business opportunities with our IP-first, blazing-fast network that includes optional LTE and 2-Way voice.
                 </p>
               </li>
             </ul>
@@ -104,37 +100,13 @@ class Index extends React.Component {
             </footer>
           </section>
 
-          <section id="second" className="main special">
+          <section id="features" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
+              <h2>Features</h2>
               <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
+              Enhance your customers existing Alarm System with industry-leading universal wireless sensors. 
               </p>
             </header>
-            <ul className="statistics">
-              <li className="style1">
-                <span className="icon fa-code-fork"></span>
-                <strong>5,120</strong> Etiam
-              </li>
-              <li className="style2">
-                <span className="icon fa-folder-open-o"></span>
-                <strong>8,192</strong> Magna
-              </li>
-              <li className="style3">
-                <span className="icon fa-signal"></span>
-                <strong>2,048</strong> Tempus
-              </li>
-              <li className="style4">
-                <span className="icon fa-laptop"></span>
-                <strong>4,096</strong> Aliquam
-              </li>
-              <li className="style5">
-                <span className="icon fa-diamond"></span>
-                <strong>1,024</strong> Nullam
-              </li>
-            </ul>
             <p className="content">
               Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl
               eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum
@@ -158,13 +130,11 @@ class Index extends React.Component {
             </footer>
           </section>
 
-          <section id="cta" className="main special">
+          <section id="getStarted" className="main special">
             <header className="major">
-              <h2>Congue imperdiet</h2>
+              <h2>Find the Perfect System</h2>
               <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
+              Total solutions that deliver the experience your customers want and the simplification your bottom line deserves.
               </p>
             </header>
             <footer className="major">
@@ -172,11 +142,6 @@ class Index extends React.Component {
                 <li>
                   <Link to="/generic" className="button special">
                     Get Started
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
                   </Link>
                 </li>
               </ul>

@@ -5,3 +5,8 @@
  */
 
 // You can delete this file if you're not using it
+// import React from 'react'
+// import { ProductDb } from './src/assets/context'
+// export const wrapRootElement = ({ element }) => {
+//     return (<ProductDb>{element}</ProductDb>)
+// }

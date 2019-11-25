@@ -3,6 +3,7 @@ import '../assets/scss/main.scss'
 
 import Footer from './Footer'
 
+
 class Template extends React.Component {
   constructor(props) {
     super(props);
@@ -27,13 +28,12 @@ class Template extends React.Component {
     const { children } = this.props
 
     return (
-      <div className={`body ${this.state.loading}`}>
-        <div id="wrapper">
-
-          {children}
-          <Footer />
+        <div className={`body ${this.state.loading}`}>
+          <div id="wrapper">
+            {children}
+            <Footer />
+          </div>
         </div>
-      </div>
     )
   }
 }

@@ -5,3 +5,9 @@
  */
 
 // You can delete this file if you're not using it
+const React = require('react')
+const ProductDb = require('./src/assets/context').default
+
+export const wrapRootElement = ({ element }) => {
+    return <ProductDb>{element}</ProductDb>
+}
